@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+  converter:
+    build: .
+    volumes: 
+      - ./:/work
+    working_dir: /work
