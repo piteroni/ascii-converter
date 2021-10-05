@@ -21,4 +21,4 @@ RUN wget -P /tmp/ https://github.com/Itseez/opencv/archive/3.1.0.zip && \
 
 COPY docker-entrypoint.sh /
 
-CMD ["/docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]
